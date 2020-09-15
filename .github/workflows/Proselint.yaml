@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - master
+
+name: "Proselint"
+
+jobs:
+  proselint:
+    name: Proselint
+    runs-on: Ubuntu-latest
+    steps:
+      - name: Run proselint
+        uses: dhruvmanila/action-proselint@v0.1.0b

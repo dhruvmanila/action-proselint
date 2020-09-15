@@ -1,0 +1,6 @@
+name: "Proselint"
+description: "Github action for Proselint"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
