@@ -4,7 +4,7 @@ _GitHub action for Proselint_
 
 ## Example
 
-```
+```yaml
 on:
   push:
     branches:
